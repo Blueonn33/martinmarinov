@@ -55,6 +55,10 @@ body::before {
   color: white;
   background-color: #431264;
 }
+.profilePictureContainer {
+  display: flex;
+  justify-content: center;
+}
 .active {
   text-decoration: underline;
   text-underline-offset: 8px;
@@ -122,6 +126,7 @@ body::before {
   border: 6px solid rgba(67, 18, 100, 0.6);
   border-radius: 20px;
   color: #431264;
+  min-width: 300px;
 }
 .card {
   width: 100%;
