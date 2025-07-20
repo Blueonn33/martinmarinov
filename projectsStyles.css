@@ -1,0 +1,241 @@
+/* Проекти */
+.projectContainer {
+  width: 100%;
+  height: auto;
+}
+#mansorProjectContainer {
+  background-color: #434343;
+}
+#indigoProjectContainer {
+  background-color: #22053f;
+}
+#onyxProjectContainer {
+  background-color: #003535;
+}
+#madmathProjectContainer {
+  background-color: #a2b3e1;
+}
+.project {
+  width: 100%;
+  height: auto;
+}
+#mansorProject {
+  background-color: black;
+}
+#indigoProject {
+  background-color: #431264;
+}
+#onyxProject {
+  background-color: #006b6b;
+}
+#madmathProject {
+  background-color: #6d88d0;
+}
+.projectContent {
+  padding: 20px;
+}
+.projectBtnContainer {
+  display: flex;
+  justify-content: center;
+}
+.projectBtn {
+  border: 4px solid white;
+  padding: 5px 40px;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+}
+#mansorProjectBtn:hover {
+  background-color: #434343;
+  color: white;
+}
+#indigoProjectBtn:hover {
+  background-color: #8343a0;
+  color: white;
+}
+#onyxProjectBtn:hover {
+  background-color: #003535;
+  color: white;
+}
+#madmathProjectBtn:hover {
+  background-color: #a2b3e1;
+  color: white;
+}
+
+/* Mansor */
+.projectImageContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#mansorProjectImageContainer {
+  background-color: black;
+}
+.projectContentContainer {
+  color: white;
+  border: 5px solid white;
+  margin: auto;
+  border-radius: 20px;
+}
+.projectContentContainer h1 {
+  font-size: 50px;
+  text-align: center;
+}
+.projectContentContainer p {
+  text-indent: 20px;
+  text-align: left;
+  padding: 0px 5px;
+}
+#mansorProjectContentContainer {
+  background-color: #434343;
+}
+.carousel-item img {
+  width: 60%;
+  min-width: 400px;
+  height: auto;
+  margin: auto;
+}
+.mansorCarousel {
+  background-color: black;
+  border-radius: 5px;
+  opacity: 1;
+}
+.line {
+  border: 7px solid white;
+  border-radius: 5px;
+  opacity: 1;
+  width: 80%;
+  margin: auto;
+}
+#sectionHeadingTitleMansor {
+  border: 6px solid rgba(67, 67, 67, 0.6);
+  background-color: white;
+  color: #434343;
+}
+.journalBtnContainer {
+  display: flex;
+  justify-content: center;
+}
+.journalBtn {
+  color: white;
+  border: 4px solid white;
+  border-radius: 20px;
+  padding: 0px 50px;
+  text-decoration: none;
+}
+#journalBtnMansor {
+  background-color: #434343;
+}
+#journalBtnMansor:hover {
+  background-color: white;
+  color: #434343;
+}
+.projectGithubContainer {
+  display: flex;
+  justify-content: center;
+}
+.projectGithub {
+  width: 100px;
+  height: auto;
+  opacity: 1;
+}
+.projectGithub:hover {
+  background-color: black;
+  border-radius: 50%;
+}
+
+/* Indigo */
+#indigoProjectImageContainer {
+  background-color: #431264;
+}
+#indigoProjectContentContainer {
+  background-color: #22053f;
+}
+.indigoCarousel {
+  background-color: #431264;
+  border-radius: 5px;
+  opacity: 1;
+}
+#sectionHeadingTitleIndigo {
+  border: 6px solid rgba(67, 18, 100, 0.6);
+  background-color: white;
+  color: #431264;
+}
+#indigoProjectContentContainer {
+  background-color: #431264;
+}
+#projectGithubIndigo:hover {
+  background-color: #431264;
+}
+#journalBtnIndigo {
+  background-color: #431264;
+}
+#journalBtnIndigo:hover {
+  background-color: white;
+  color: #431264;
+}
+
+/* Onyx */
+#onyxProjectImageContainer {
+  background-color: #006b6b;
+}
+#onyxProjectContentContainer {
+  background-color: #006b6b;
+}
+.onyxCarousel {
+  background-color: #003535;
+  border-radius: 5px;
+  opacity: 1;
+}
+#sectionHeadingTitleOnyx {
+  border: 6px solid rgba(0, 107, 107, 0.6);
+  background-color: white;
+  color: #006b6b;
+}
+#onyxProjectContentContainer {
+  background-color: #006b6b;
+}
+#projectGithubOnyx:hover {
+  background-color: #006b6b;
+}
+#journalBtnOnyx {
+  background-color: #006b6b;
+}
+#journalBtnOnyx:hover {
+  background-color: white;
+  color: #006b6b;
+}
+
+/* MadMath */
+#madmathProjectImageContainer {
+  background-color: #6d88d0;
+}
+#madmathProjectContentContainer {
+  background-color: #6d88d0;
+}
+.madmathCarousel {
+  background-color: #6d88d0;
+  border-radius: 5px;
+  opacity: 1;
+}
+#sectionHeadingTitleMadmath {
+  border: 6px solid rgba(109, 136, 208, 0.6);
+  background-color: white;
+  color: #6d88d0;
+}
+#madmathProjectContentContainer {
+  background-color: #6d88d0;
+}
+#projectThunkableMadmath {
+  border-radius: 50%;
+}
+#projectThunkableMadmath:hover {
+  border: 5px solid #6d88d0;
+}
+#journalBtnMadmath {
+  background-color: #6d88d0;
+}
+#journalBtnMadmath:hover {
+  background-color: white;
+  color: #6d88d0;
+}

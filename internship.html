@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мартин Маринов</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="projectsStyles.css" />
+    <link rel="stylesheet" href="internshipStyles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <style>
+      body::before {
+        background-image: url(Images/mentorMatePattern.png) !important;
+        opacity: 0.3;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg p-0">
+      <div class="container-fluid p-0 navContainer">
+        <img src="Images/Indigo.png" class="logo" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav navigationList">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">За мен</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Проекти</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="internship.html"
+                >Стаж</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="design.html">Дизайни</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="music.html">Музика</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="mentorMate">
+      <div class="internshipImageContainer">
+        <img
+          src="Images/MentorMate"
+          class="internshipImage mt-5"
+          id="internshipImageMentorMate"
+        />
+      </div>
+      <div class="internshipInfoContainer container">
+        <p class="lead pt-5 pb-5">
+          Стажант front-end програмист, Великотърновския офис. <br />
+          Февруари 2022 - Май 2023. <br />Участвах в разработката на уеб
+          приложение на име VividTracker
+        </p>
+      </div>
+      <section class="internshipProjectVividTracker mt-5">
+        <div class="vividTrackerContainer container">
+          <div class="row">
+            <div
+              class="vividTrackerImageContainer col-sm-12 col-md-6 col-lg-6 mb-5 mt-5"
+            >
+              <img class="vividTrackerImage" src="Images/VivivTracker.png" />
+            </div>
+            <div
+              class="vividTrackerContentContainer col-sm-12 col-md-6 col-lg-6 mt-5 pb-5"
+            >
+              <p class="lead aboutVividTracker">
+                VividTracker позволява визуално да следите напредъка на вашите
+                проекти във времето, сравнявайки постигнатите резултати с тези
+                на другите членове на екипа. Разширени функции като проследяване
+                на активността на всеки елемент с възможност за:
+              </p>
+              <ul class="lead">
+                <li>добавяне на коментари;</li>
+                <li>планиране на събития за промяна на статуса в бъдеще;</li>
+                <li>изискване на действия от конкретен член на екипа;</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="vividTrackerGithubContainer container">
+        <div class="sectionHeading row">
+          <div
+            class="sectionHeadingTitle mb-5 col-sm-12 col-md-6 mt-5"
+            id="sectionHeadingTitleVividTracker"
+          >
+            <h2 class="mt-1">Код</h2>
+          </div>
+        </div>
+        <div class="projectGithubContainer container mb-5">
+          <a href="https://github.com/mm-mihailn/VividTracker" target="_blank"
+            ><img
+              class="projectGithub"
+              src="Images/githubDark.png"
+              id="projectGithubVividTracker"
+          /></a>
+        </div>
+      </div>
+    </section>
+    <section class="internshipUniversity mt-5">
+      <div class="universityContainer container">
+        <div class="universityImageContainer">
+          <img src="Images/university.png" class="universityImage" />
+        </div>
+        <div class="universityContentContainer">
+          <h2 class="text-light mb-5">
+            Великотърновски университет “Св. Св. Кирил и Методий”
+          </h2>
+          <p class="lead pb-5">
+            Асистент по "Уеб дизайн". <br />
+            От октомври 2025
+          </p>
+        </div>
+      </div>
+      <div class="universityResoursesContainer container">
+        <div class="row">
+          <div class="col mb-5">
+            <a
+              href="https://drive.google.com/drive/folders/1_lNTDz0Djm9PuNZA08JRUV9lO5C9JoPX?usp=sharing"
+              target="_blank"
+              class="universityResoursesBtn fs-4"
+              >Презентации</a
+            >
+          </div>
+          <div class="col mb-5">
+            <a href="" class="universityResoursesBtn fs-4">Упражнения</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

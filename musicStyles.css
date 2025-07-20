@@ -1,0 +1,95 @@
+/* MXTHI3V */
+#singerMxContainer {
+  width: 100%;
+  background: linear-gradient(45deg, #d791ee, #342539, #d9d9d9);
+  background-size: 400% 400%;
+  animation: gradient 8s ease infinite;
+}
+#mxSong {
+  background: linear-gradient(45deg, #d791ee, #342539, #d9d9d9);
+  background-size: 400% 400%;
+  animation: gradient 8s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 50% 0%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 50% 0%;
+  }
+}
+#singerImage {
+  width: 15%;
+  height: auto;
+  border-radius: 20px;
+  min-width: 200px;
+}
+.singerContainer h1 {
+  text-align: center;
+}
+.singerImageContainer {
+  display: flex;
+  justify-content: center;
+}
+.singerSongsContainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* gap: 20px; */
+}
+.singerSongsContainer .row {
+  display: flex;
+  justify-content: center;
+}
+.songContainer {
+  padding: 0;
+  width: 30%;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.songImage {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  min-width: 80px;
+}
+.songYoutube {
+  width: 30%;
+  height: auto;
+}
+.songYoutube:hover {
+  opacity: 0.7;
+}
+.songYoutubeContainer {
+  display: flex;
+  justify-content: center;
+}
+
+/* Ari Abdul */
+#singerAriContainer {
+  width: 100%;
+  /* background: linear-gradient(180deg, #122248, #271e2b, #d9d9d9); */
+  background: linear-gradient(45deg, #122248, #271e2b, #d9d9d9);
+  background-size: 400% 400%;
+  animation: gradient 8s ease infinite;
+}
+#ariSong {
+  background: linear-gradient(45deg, #122248, #271e2b, #d9d9d9);
+  background-size: 400% 400%;
+  animation: gradient 8s ease infinite;
+}
+
+/* Mr.Kitty */
+#singerMrKittyContainer {
+  width: 100%;
+  background: linear-gradient(45deg, #7cb7f0, #00042f, #d9d9d9);
+  background-size: 400% 400%;
+  animation: gradient 8s ease infinite;
+}
+#mrKittySong {
+  background: linear-gradient(45deg, #7cb7f0, #00042f, #d9d9d9);
+  background-size: 400% 400%;
+  animation: gradient 8s ease infinite;
+}

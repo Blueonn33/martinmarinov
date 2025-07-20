@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мартин Маринов</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="projectsStyles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <style>
+      body::before {
+        background-image: url("Images/patternMansorBlack.png") !important;
+        opacity: 0.6;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg p-0">
+      <div class="container-fluid p-0 navContainer">
+        <img src="Images/Indigo.png" class="logo" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav navigationList">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">За мен</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="projects.html"
+                >Проекти</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="internship.html">Стаж</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="design.html">Дизайни</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="music.html">Музика</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="mansorContainer mb-5" id="">
+      <div class="projectImageContainer" id="mansorProjectImageContainer">
+        <img src="Images/Mansor.png" />
+      </div>
+      <div
+        class="projectContentContainer container mt-5"
+        id="mansorProjectContentContainer"
+      >
+        <h1 class="mt-3">MANSOR</h1>
+        <p class="lead mt-5">
+          Студентският бележник MANSOR е иновативно приложение, насочено към
+          подпомагане на студентите в тяхната академична и личностна реализация.
+          Целта му е да предлага цялостно решение за ефективно управление на
+          учебните задачи, личното време и активности, които допринасят за
+          развитието на студентите.
+        </p>
+      </div>
+    </section>
+    <section class="projectImagesContainer mt-5 mb-5">
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Images/Mansor/Home.png" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="Images/Mansor/Register.png" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="Images/Mansor/Login.png" class="d-block" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon mansorCarousel"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon mansorCarousel"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <hr class="line mb-5" />
+    <section class="report">
+      <div class="sectionHeading mt-5 row">
+        <div
+          class="sectionHeadingTitle mb-5 col-sm-12 col-md-6"
+          id="sectionHeadingTitleMansor"
+        >
+          <h2>Научен доклад</h2>
+        </div>
+      </div>
+      <div
+        class="projectContentContainer container mb-5"
+        id="mansorProjectContentContainer"
+      >
+        <p class="lead text-light pt-3">
+          Приложението е включено в научното списание "Математика, компютърни
+          науки и образование" на ВТУ "Св. Св. Кирил и Методий", (ТОМ 7, БРОЙ
+          2).
+        </p>
+        <p class="lead"><strong>Научен ръководител:</strong></p>
+        <ul class="lead">
+          <li>
+            гл.ас.д-р Васил Милев, Великотърновски университет „Св. Св. Кирил и
+            Методий“
+          </li>
+        </ul>
+      </div>
+      <div class="journalBtnContainer container mb-5">
+        <a
+          class="journalBtn fs-4"
+          id="journalBtnMansor"
+          href="https://journals.uni-vt.bg/mcse/bul/vol7/iss2/art8"
+          target="_blank"
+          >Към списанието</a
+        >
+      </div>
+    </section>
+    <hr class="line mb-5" />
+    <section class="code">
+      <div class="sectionHeading mt-5 row">
+        <div
+          class="sectionHeadingTitle mb-5 col-sm-12 col-md-6"
+          id="sectionHeadingTitleMansor"
+        >
+          <h2>Код</h2>
+        </div>
+      </div>
+      <div class="projectGithubContainer container mb-5">
+        <a href="https://github.com/Blueonn33/Mansor17" target="_blank"
+          ><img class="projectGithub" src="Images/githubWhite.png"
+        /></a>
+      </div>
+    </section>
+    <hr class="line mb-5" />
+    <section class="video">
+      <div class="sectionHeading mt-5 row">
+        <div
+          class="sectionHeadingTitle mb-5 col-sm-12 col-md-6"
+          id="sectionHeadingTitleMansor"
+        >
+          <h2>Видео</h2>
+        </div>
+      </div>
+      <div class="ratio ratio-16x9 container mb-5">
+        <!-- <iframe
+          src="https://www.youtube.com/watch?v=c5b7VzqdLWs"
+          title="YouTube video"
+        ></iframe> -->
+        <iframe src="https://www.youtube.com/embed/c5b7VzqdLWs"> </iframe>
+      </div>
+    </section>
+    <hr class="line mb-5" />
+    <div class="journalBtnContainer container mb-5">
+      <a class="journalBtn fs-4" id="journalBtnMansor" href="projects.html"
+        >Към проектите</a
+      >
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
