@@ -253,3 +253,26 @@ body::before {
     background-position: 0% 50%;
   }
 }
+
+/* Designs */
+.designsContainer {
+  display: grid;
+  /* gap: 10px; */
+  grid-template-columns: auto auto auto auto auto auto;
+  width: 100%;
+  height: auto;
+}
+#designImage {
+  width: 100%;
+  height: auto;
+  outline: 5px solid white;
+  /* min-width: 6.3em; */
+  /* min-width: 40px; */
+}
+.desings {
+  width: 100%;
+  padding: 30px;
+  background: linear-gradient(90deg, #006b6b, #000000);
+  background-size: 400% 400%;
+  animation: gradient 7s ease infinite;
+}
