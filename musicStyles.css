@@ -93,3 +93,16 @@
   background-size: 400% 400%;
   animation: gradient 8s ease infinite;
 }
+
+/* Damiano */
+#singerDamianoContainer {
+  width: 100%;
+  background: linear-gradient(45deg, #e1d9cc, #0c1018, #dac2b0);
+  background-size: 400% 400%;
+  animation: gradient 8s ease infinite;
+}
+#damianoSong {
+  background: linear-gradient(45deg, #e1d9cc, #0c1018, #dac2b0);
+  background-size: 400% 400%;
+  animation: gradient 8s ease infinite;
+}
