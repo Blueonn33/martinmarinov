@@ -224,7 +224,8 @@ body::before {
   width: 100%;
   height: auto;
   min-width: 100px;
-  border-radius: 20px;
+  border: 5px solid white;
+  border-radius: 10px;
 }
 .projectsBtnContainer {
   display: flex;
