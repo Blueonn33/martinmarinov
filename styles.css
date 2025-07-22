@@ -54,6 +54,9 @@ body::before {
 .navContainer {
   color: white;
   background-color: #431264;
+  position: fixed;
+  top: 0;
+  z-index: 10;
 }
 .profilePictureContainer {
   display: flex;
