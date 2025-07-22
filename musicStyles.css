@@ -94,6 +94,19 @@
   animation: gradient 8s ease infinite;
 }
 
+/* Ritchie */
+#singerRitchieContainer {
+  width: 100%;
+  background: linear-gradient(45deg, #121318, #39434f, #965b41);
+  background-size: 400% 400%;
+  animation: gradient 8s ease infinite;
+}
+#ritchieSong {
+  background: linear-gradient(45deg, #121318, #39434f, #965b41);
+  background-size: 400% 400%;
+  animation: gradient 8s ease infinite;
+}
+
 /* Damiano */
 #singerDamianoContainer {
   width: 100%;
