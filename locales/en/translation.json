@@ -1,4 +1,9 @@
 {
+  "navMe": "About me",
+  "navProjects": "Projects",
+  "navInternship": "Internship",
+  "navDesigns": "Designs",
+  "navMusic": "Music",
   "name": "Martin Marinov",
   "university": "Student at University of Veliko Tarnovo 'St. St. Cyril and Methodius', majoring in Informatics",
   "aboutMe": "I enjoy creating designs – from websites to logos and posters. I develop ASP.NET web applications, striving to combine functionality and aesthetics. I also have an interest in photography and video editing, which complement my overall creative approach.",

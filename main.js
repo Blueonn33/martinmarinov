@@ -1,10 +1,10 @@
 i18next.use(i18nextHttpBackend).init(
   {
-    lng: "bg", // Начален език
-    fallbackLng: "en",
+    lng: localStorage.getItem("lang") || "bg",
+    fallbackLng: "bg",
     debug: true,
     backend: {
-      loadPath: "/locales/{{lng}}/translation.json",
+      loadPath: "locales/{{lng}}/translation.json",
     },
   },
   function (err, t) {
@@ -21,6 +21,7 @@ function updateContent() {
 
 function changeLang(lang) {
   i18next.changeLanguage(lang, () => {
+    localStorage.setItem("lang", lang);
     updateContent();
   });
 }
