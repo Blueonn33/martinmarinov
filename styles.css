@@ -259,7 +259,7 @@ body::before {
 .designsContainer {
   display: grid;
   /* gap: 10px; */
-  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-columns: auto auto auto;
   width: 100%;
   height: auto;
 }
@@ -276,4 +276,17 @@ body::before {
   background: linear-gradient(90deg, #006b6b, #000000);
   background-size: 400% 400%;
   animation: gradient 7s ease infinite;
+}
+.designImageLink:hover {
+  opacity: 0.6;
+}
+#designImage {
+  width: 100%;
+  height: auto;
+  outline: 5px solid white;
+}
+
+.allDesigns {
+  width: 100%;
+  height: auto;
 }
