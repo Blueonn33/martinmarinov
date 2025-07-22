@@ -239,3 +239,8 @@
   background-color: white;
   color: #6d88d0;
 }
+#madmathImage {
+  width: 30%;
+  height: auto;
+  min-width: 240px;
+}
