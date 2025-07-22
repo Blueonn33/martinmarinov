@@ -59,17 +59,29 @@
         </div>
       </div>
     </nav>
+    <div class="changeLanguageContainer pt-2 ps-2">
+      <button onclick="changeLang('en')" class="changeLanguageButton">
+        English
+      </button>
+      <button onclick="changeLang('bg')" class="changeLanguageButton">
+        Български
+      </button>
+    </div>
     <section class="container mt-5 aboutMe mb-5">
       <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-6 profilePictureContainer">
+        <div class="col-sm-12 col-md-12 col-lg-6 profilePictureContainer">
           <img src="Images/ProfilePicture.jpg" class="profilePic" />
         </div>
-        <div class="col-sm-12 col-md-6 mt-5">
-          <h1 class="mb-5 name">Мартин Маринов</h1>
-          <p class="lead fw-bold mb-5">
+        <div class="col-sm-12 col-md-12 col-lg-6 mt-5">
+          <h1 class="mb-5 name" data-i18n="name">Мартин Маринов</h1>
+          <p class="lead fw-bold mb-5" data-i18n="university">
             Студент във ВТУ "Св. Св. Кирил и Методий", специалност Информатика.
           </p>
-          <p class="lead" style="text-indent: 50px; text-align: justify">
+          <p
+            class="lead"
+            style="text-indent: 50px; text-align: justify"
+            data-i18n="aboutMe"
+          >
             Обичам да се занимавам със създаване на дизайни – от такива за уеб
             сайтове до логота и плакати. Разработвам уеб приложения на ASP.NET,
             като се стремя да съчетавам функционалността и естетиката. Имам
@@ -77,9 +89,10 @@
             допълват цялостния ми креативен подход.
           </p>
           <div class="contact mt-5">
-            <h2>Свържи се с мен</h2>
+            <h2 data-i18n="contactMe">Свържи се с мен</h2>
             <p class="lead">
-              <span class="fw-bold mb-5">Имейл: </span>m.marinov1733@gmail.com
+              <span class="fw-bold mb-5" data-i18n="email">Имейл: </span
+              >m.marinov1733@gmail.com
             </p>
           </div>
           <div class="socials">
@@ -120,7 +133,7 @@
     <section>
       <div class="sectionHeading mt-5">
         <div class="sectionHeadingTitle mb-5">
-          <h2>Награди</h2>
+          <h2 data-i18n="awards">Награди</h2>
         </div>
       </div>
       <div class="cardsContainer container">
@@ -139,7 +152,7 @@
                 <h5 class="card-title card-title-mansor text-light">
                   <span>MANSOR</span>
                 </h5>
-                <p class="card-text">
+                <p class="card-text" data-i18n="awardDescription">
                   Награда за приложимост в научна конференция на младите
                   изследователи на факултет "Математика и информатика".
                   Великотърновски университет "Св. Св. Кирил и Методий"
@@ -149,6 +162,7 @@
                     href="Images/MansorAward.jpg"
                     target="_blank"
                     class="awardBtn"
+                    data-i18n="seeAward"
                     >Преглед</a
                   >
                 </div>
@@ -167,9 +181,9 @@
               />
               <div class="card-body">
                 <h5 class="card-title card-title-indigo text-light">
-                  <span>ИНДИГО</span>
+                  <span data-i18n="indigo">ИНДИГО</span>
                 </h5>
-                <p class="card-text">
+                <p class="card-text" data-i18n="awardDescription">
                   Награда за приложимост в научна конференция на младите
                   изследователи на факултет "Математика и информатика".
                   Великотърновски университет "Св. Св. Кирил и Методий"
@@ -179,6 +193,7 @@
                     href="Images/IndigoAward.jpg"
                     target="_blank"
                     class="awardBtn"
+                    data-i18n="seeAward"
                     >Преглед</a
                   >
                 </div>
@@ -191,7 +206,7 @@
     <section>
       <div class="sectionHeading mt-5">
         <div class="sectionHeadingTitle mb-5">
-          <h2>Предстоящи участия</h2>
+          <h2 data-i18n="upcomingEvents">Предстоящи участия</h2>
         </div>
       </div>
       <div class="cardsContainer container">
@@ -208,9 +223,9 @@
               />
               <div class="card-body">
                 <h5 class="card-title card-title-onyx text-light">
-                  <span>ОНИКС</span>
+                  <span data-i18n="onyx">ОНИКС</span>
                 </h5>
-                <p class="card-text">
+                <p class="card-text" data-i18n="awardDescription">
                   Научна конференция на младите изследователи на факултет
                   "Математика и информатика". Великотърновски университет "Св.
                   Св. Кирил и Методий"
@@ -221,9 +236,12 @@
         </div>
       </div>
     </section>
+
     <section>
       <div class="projectsContainer mt-5">
-        <h1 class="text-light mb-5">Прегледай проектите ми</h1>
+        <h1 class="text-light mb-5" data-i18n="projects">
+          Прегледай проектите ми
+        </h1>
         <div class="projectsBorderContainer">
           <!-- <img src="Images/IndigoAllWhite.png" />
           <img src="Images/MansorAllWhite.png" />
@@ -233,7 +251,10 @@
           <img src="Images/Onyx2.png" />
         </div>
         <div class="projectsBtnContainer">
-          <a class="projectsBtn fs-3 mt-5" href="projects.html"
+          <a
+            class="projectsBtn fs-3 mt-5"
+            href="projects.html"
+            data-i18n="gotoProjects"
             >Към проектите</a
           >
         </div>
@@ -244,5 +265,8 @@
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/i18next@23.4.6/i18next.min.js"></script>
+    <script src="https://unpkg.com/i18next-http-backend@2.2.2/i18nextHttpBackend.min.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
