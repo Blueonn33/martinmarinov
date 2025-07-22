@@ -4,7 +4,7 @@ i18next.use(i18nextHttpBackend).init(
     fallbackLng: "bg",
     debug: true,
     backend: {
-      loadPath: "locales/{{lng}}/translation.json",
+      loadPath: "./locales/{{lng}}/translation.json",
     },
   },
   function (err, t) {
