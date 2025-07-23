@@ -45,30 +45,55 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav navigationList">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">За мен</a>
+              <a class="nav-link" href="index.html" data-i18n="navMe">За мен</a>
             </li>
             <li class="nav-item">
               <a
                 class="nav-link active"
                 aria-current="page"
                 href="projects.html"
+                data-i18n="navProjects"
                 >Проекти</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="internship.html">Стаж</a>
+              <a
+                class="nav-link"
+                href="internship.html"
+                data-i18n="navInternship"
+                >Стаж</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="design.html">Дизайни</a>
+              <a class="nav-link" href="design.html" data-i18n="navDesigns"
+                >Дизайни</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="music.html">Музика</a>
+              <a class="nav-link" href="music.html" data-i18n="navMusic"
+                >Музика</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <section class="mansorContainer mb-5 mt-5" id="">
+    <div class="actionButtonsContainer pt-2 ps-2 mt-5 pb-2 bg-white">
+      <button
+        onclick="changeLang('bg')"
+        class="changeLanguageButton me-2"
+        data-lang="bg"
+      >
+        Български</button
+      ><button
+        onclick="changeLang('en')"
+        class="changeLanguageButton me-2"
+        data-lang="en"
+      >
+        English
+      </button>
+    </div>
+    <section class="mansorContainer mb-5" id="">
       <div class="projectImageContainer" id="mansorProjectImageContainer">
         <img src="Images/Mansor.png" />
       </div>
@@ -76,14 +101,8 @@
         class="projectContentContainer container mt-5"
         id="mansorProjectContentContainer"
       >
-        <h1 class="mt-3">MANSOR</h1>
-        <p class="lead mt-5">
-          Студентският бележник MANSOR е иновативно приложение, насочено към
-          подпомагане на студентите в тяхната академична и личностна реализация.
-          Целта му е да предлага цялостно решение за ефективно управление на
-          учебните задачи, личното време и активности, които допринасят за
-          развитието на студентите.
-        </p>
+        <h1 class="mt-3" data-i18n="mansor"></h1>
+        <p class="lead mt-5" data-i18n="mansorDescription"></p>
       </div>
     </section>
     <section class="projectImagesContainer mt-5 mb-5">
@@ -261,24 +280,17 @@
     <section class="report">
       <div class="sectionHeading mt-5">
         <div class="sectionHeadingTitle mb-5" id="sectionHeadingTitleMansor">
-          <h2>Научен доклад</h2>
+          <h2 data-i18n="scientificReport"></h2>
         </div>
       </div>
       <div
         class="projectContentContainer container mb-5"
         id="mansorProjectContentContainer"
       >
-        <p class="lead text-light pt-3">
-          Приложението е включено в научното списание "Математика, компютърни
-          науки и образование" на ВТУ "Св. Св. Кирил и Методий", (ТОМ 7, БРОЙ
-          2).
-        </p>
-        <p class="lead"><strong>Научен ръководител:</strong></p>
+        <p class="lead text-light pt-3" data-i18n="mansorReport"></p>
+        <p class="lead fw-bold" data-i18n="scientificSupervisor"></p>
         <ul class="lead">
-          <li>
-            гл.ас.д-р Васил Милев, Великотърновски университет „Св. Св. Кирил и
-            Методий“
-          </li>
+          <li data-i18n="supervisorMilev"></li>
         </ul>
       </div>
       <div class="journalBtnContainer container mb-5">
@@ -287,15 +299,15 @@
           id="journalBtnMansor"
           href="https://journals.uni-vt.bg/mcse/bul/vol7/iss2/art8"
           target="_blank"
-          >Към списанието</a
-        >
+          data-i18n="journal"
+        ></a>
       </div>
     </section>
     <hr class="line mb-5" />
     <section class="code">
       <div class="sectionHeading mt-5">
         <div class="sectionHeadingTitle mb-5" id="sectionHeadingTitleMansor">
-          <h2>Код</h2>
+          <h2 data-i18n="code"></h2>
         </div>
       </div>
       <div class="projectGithubContainer container mb-5">
@@ -308,10 +320,12 @@
     <section class="video">
       <div class="sectionHeading mt-5">
         <div class="sectionHeadingTitle mb-5" id="sectionHeadingTitleMansor">
-          <h2>Видео</h2>
+          <h2 data-i18n="video"></h2>
         </div>
       </div>
-      <div class="container"><p class="lead">Все още не е готово</p></div>
+      <div class="container">
+        <p class="lead" data-i18n="videoText"></p>
+      </div>
 
       <!-- <div class="ratio ratio-16x9 container mb-5">
         <iframe src="https://www.youtube.com/embed/c5b7VzqdLWs"> </iframe>
@@ -319,13 +333,16 @@
     </section>
     <hr class="line mb-5" />
     <div class="journalBtnContainer container mb-5">
-      <a class="journalBtn fs-4" id="journalBtnMansor" href="projects.html"
-        >Към проектите</a
-      >
+      <a
+        class="journalBtn fs-4"
+        id="journalBtnMansor"
+        href="projects.html"
+        data-i18n="returnToProjects"
+      ></a>
     </div>
     <footer>
       <div>
-        <p class="lead p-0 m-0">© 2025 Мартин Маринов</p>
+        <p class="lead p-0 m-0" data-i18n="footer"></p>
       </div>
     </footer>
     <script
@@ -333,5 +350,8 @@
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/i18next@23.4.6/i18next.min.js"></script>
+    <script src="https://unpkg.com/i18next-http-backend@2.2.2/i18nextHttpBackend.min.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
