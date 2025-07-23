@@ -296,7 +296,7 @@ body::before {
 
 /* Езици */
 .changeLanguageButton {
-  background-color: transparent;
+  background-color: white;
   border: 4px solid #431264;
   border-radius: 10px;
   padding: 2px 20px;
@@ -304,4 +304,22 @@ body::before {
 .changeLanguageButton:hover {
   background-color: #8343a0;
   color: white;
+}
+.activeLanguage {
+  background-color: #8343a0;
+  color: white;
+}
+.themeButton {
+  padding: 5px;
+  border-radius: 50%;
+}
+#sun {
+  background-color: rgb(6, 129, 218);
+}
+#moon {
+  background-color: rgb(0, 36, 62);
+}
+.activeTheme {
+  border: 2px solid #431264;
+  background-color: white !important;
 }

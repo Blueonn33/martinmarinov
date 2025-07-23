@@ -74,12 +74,31 @@
         </div>
       </div>
     </nav>
-    <div class="changeLanguageContainer pt-2 ps-2 mt-5">
-      <button onclick="changeLang('en')" class="changeLanguageButton">
+    <div class="actionButtonsContainer pt-2 ps-2 mt-5">
+      <button
+        onclick="changeLang('en')"
+        class="changeLanguageButton"
+        data-lang="en"
+      >
         English
       </button>
-      <button onclick="changeLang('bg')" class="changeLanguageButton">
+      <button
+        onclick="changeLang('bg')"
+        class="changeLanguageButton"
+        data-lang="bg"
+      >
         Български
+      </button>
+      <button class="themeButton" id="sun" onclick="setTheme('sun')">
+        <img src="Images/sun.png" width="30" height="auto" class="themeImage" />
+      </button>
+      <button class="themeButton" id="moon" onclick="setTheme('moon')">
+        <img
+          src="Images/moon.png"
+          width="30"
+          height="auto"
+          class="themeImage"
+        />
       </button>
     </div>
     <section class="container mt-5 aboutMe mb-5">
