@@ -338,3 +338,11 @@ body.darkTheme::before {
 .darkThemeText {
   color: white !important;
 }
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #431264;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
