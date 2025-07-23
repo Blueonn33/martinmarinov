@@ -39,11 +39,46 @@ function updateActiveLanguageButton(activeLang) {
 }
 
 function setTheme(id) {
-  if (id == "sun") {
-    document.getElementById(id).classList.add("activeTheme");
+  const body = document.body;
+  const text = document.getElementsByClassName("headingText");
+  const card = document.getElementsByClassName("card");
+
+  if (id === "sun") {
+    document.getElementById("sun").classList.add("activeTheme");
     document.getElementById("moon").classList.remove("activeTheme");
-  } else if (id == "moon") {
-    document.getElementById(id).classList.add("activeTheme");
+
+    for (let i = 0; i < text.length; i++) {
+      text[i].classList.remove("darkThemeText");
+    }
+    document.getElementById("socialsLightTheme").style.display = "block";
+    document.getElementById("socialsDarkTheme").style.display = "none";
+    document.getElementById("socialsLightTheme").classList.add("socials");
+    body.classList.remove("darkTheme");
+    body.classList.remove("darkThemeText");
+    for (let i = 0; i < card.length; i++) {
+      card[i].style.backgroundColor = "#fff";
+    }
+  } else if (id === "moon") {
+    document.getElementById("moon").classList.add("activeTheme");
     document.getElementById("sun").classList.remove("activeTheme");
+
+    for (let i = 0; i < text.length; i++) {
+      text[i].classList.add("darkThemeText");
+    }
+    document.getElementById("socialsLightTheme").style.display = "none";
+    document.getElementById("socialsDarkTheme").style.display = "block";
+    document.getElementById("socialsDarkTheme").classList.add("socials");
+    body.classList.add("darkTheme");
+    body.classList.add("darkThemeText");
+    for (let i = 0; i < text.length; i++) {
+      card[i].style.backgroundColor = "#222";
+    }
   }
+
+  localStorage.setItem("theme", id);
 }
+
+window.addEventListener("DOMContentLoaded", () => {
+  const savedTheme = localStorage.getItem("theme") || "sun";
+  setTheme(savedTheme);
+});

@@ -76,19 +76,19 @@
     </nav>
     <div class="actionButtonsContainer pt-2 ps-2 mt-5">
       <button
+        onclick="changeLang('bg')"
+        class="changeLanguageButton me-2"
+        data-lang="bg"
+      >
+        Български</button
+      ><button
         onclick="changeLang('en')"
-        class="changeLanguageButton"
+        class="changeLanguageButton me-2"
         data-lang="en"
       >
         English
       </button>
-      <button
-        onclick="changeLang('bg')"
-        class="changeLanguageButton"
-        data-lang="bg"
-      >
-        Български
-      </button>
+
       <button class="themeButton" id="sun" onclick="setTheme('sun')">
         <img src="Images/sun.png" width="30" height="auto" class="themeImage" />
       </button>
@@ -130,36 +130,72 @@
             </p>
           </div>
           <div class="socials">
-            <a
-              href="https://www.instagram.com/m.marinov33/"
-              class="socialItem"
-              target="_blank"
-              ><img src="Images/instagram.png"
-            /></a>
-            <a
-              href="https://www.facebook.com/martin.marinov.9256028"
-              class="socialItem"
-              target="_blank"
-              ><img src="Images/facebook.png"
-            /></a>
-            <a
-              href="https://github.com/Blueonn33"
-              class="socialItem"
-              target="_blank"
-              ><img src="Images/github.png"
-            /></a>
-            <a
-              href="https://www.linkedin.com/in/martin-marinov-3b65b6284/"
-              class="socialItem"
-              target="_blank"
-              ><img src="Images/linkedin.png"
-            /></a>
-            <a
-              href="https://www.youtube.com/@Mansor_17/videos"
-              class="socialItem"
-              target="_blank"
-              ><img src="Images/youtube.png"
-            /></a>
+            <div id="socialsLightTheme">
+              <a
+                href="https://www.instagram.com/m.marinov33/"
+                class="socialItem me-3"
+                target="_blank"
+                ><img src="Images/instagram.png"
+              /></a>
+              <a
+                href="https://www.facebook.com/martin.marinov.9256028"
+                class="socialItem me-3"
+                target="_blank"
+                ><img src="Images/facebook.png"
+              /></a>
+              <a
+                href="https://github.com/Blueonn33"
+                class="socialItem me-3"
+                target="_blank"
+                ><img src="Images/github.png"
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/martin-marinov-3b65b6284/"
+                class="socialItem me-3"
+                target="_blank"
+                ><img src="Images/linkedin.png"
+              /></a>
+              <a
+                href="https://www.youtube.com/@Mansor_17/videos"
+                class="socialItem me-3"
+                target="_blank"
+                ><img src="Images/youtube.png"
+              /></a>
+            </div>
+          </div>
+          <div class="socials">
+            <div id="socialsDarkTheme">
+              <a
+                href="https://www.instagram.com/m.marinov33/"
+                class="socialItem me-3"
+                target="_blank"
+                ><img src="Images/instagramDark.png"
+              /></a>
+              <a
+                href="https://www.facebook.com/martin.marinov.9256028"
+                class="socialItem me-3"
+                target="_blank"
+                ><img src="Images/facebookDark.png"
+              /></a>
+              <a
+                href="https://github.com/Blueonn33"
+                class="socialItem me-3"
+                target="_blank"
+                ><img src="Images/githubWhite.png"
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/martin-marinov-3b65b6284/"
+                class="socialItem me-3"
+                target="_blank"
+                ><img src="Images/linkedinDark.png"
+              /></a>
+              <a
+                href="https://www.youtube.com/@Mansor_17/videos"
+                class="socialItem me-3"
+                target="_blank"
+                ><img src="Images/youtubeWhite.png"
+              /></a>
+            </div>
           </div>
         </div>
       </div>
@@ -167,7 +203,7 @@
     <section>
       <div class="sectionHeading mt-5">
         <div class="sectionHeadingTitle mb-5">
-          <h2 data-i18n="awards">Награди</h2>
+          <h2 data-i18n="awards" class="headingText">Награди</h2>
         </div>
       </div>
       <div class="cardsContainer container">
@@ -182,11 +218,11 @@
                 class="card-img-top"
                 alt="..."
               />
-              <div class="card-body">
+              <div class="card-body" id="card-body">
                 <h5 class="card-title card-title-mansor text-light">
                   <span>MANSOR</span>
                 </h5>
-                <p class="card-text" data-i18n="awardDescription">
+                <p class="card-text headingText" data-i18n="awardDescription">
                   Награда за приложимост в научна конференция на младите
                   изследователи на факултет "Математика и информатика".
                   Великотърновски университет "Св. Св. Кирил и Методий"
@@ -195,7 +231,7 @@
                   <a
                     href="Images/MansorAward.jpg"
                     target="_blank"
-                    class="awardBtn"
+                    class="awardBtn headingText"
                     data-i18n="seeAward"
                     >Преглед</a
                   >
@@ -213,11 +249,11 @@
                 class="card-img-top"
                 alt="..."
               />
-              <div class="card-body">
+              <div class="card-body" id="card-body">
                 <h5 class="card-title card-title-indigo text-light">
                   <span data-i18n="indigo">ИНДИГО</span>
                 </h5>
-                <p class="card-text" data-i18n="awardDescription">
+                <p class="card-text headingText" data-i18n="awardDescription">
                   Награда за приложимост в научна конференция на младите
                   изследователи на факултет "Математика и информатика".
                   Великотърновски университет "Св. Св. Кирил и Методий"
@@ -226,7 +262,7 @@
                   <a
                     href="Images/IndigoAward.jpg"
                     target="_blank"
-                    class="awardBtn"
+                    class="awardBtn headingText"
                     data-i18n="seeAward"
                     >Преглед</a
                   >
@@ -240,7 +276,9 @@
     <section>
       <div class="sectionHeading mt-5">
         <div class="sectionHeadingTitle mb-5">
-          <h2 data-i18n="upcomingEvents">Предстоящи участия</h2>
+          <h2 data-i18n="upcomingEvents" class="headingText">
+            Предстоящи участия
+          </h2>
         </div>
       </div>
       <div class="cardsContainer container">
@@ -248,18 +286,21 @@
           <div class="col-sm-12 col-md-6 col-lg-6 mt-3">
             <div class="card">
               <div class="imageBackgroundOnyx imageBackground">
-                <span class="awardYear">2026</span>
+                <span class="awardYear headingText">2026</span>
               </div>
               <img
                 src="Images/Onyx-Presentation.png"
                 class="card-img-top"
                 alt="..."
               />
-              <div class="card-body">
+              <div class="card-body" id="card-body">
                 <h5 class="card-title card-title-onyx text-light">
                   <span data-i18n="onyx">ОНИКС</span>
                 </h5>
-                <p class="card-text" data-i18n="upcomingEventDescription">
+                <p
+                  class="card-text headingText"
+                  data-i18n="upcomingEventDescription"
+                >
                   Научна конференция на младите изследователи на факултет
                   "Математика и информатика". Великотърновски университет "Св.
                   Св. Кирил и Методий"

@@ -114,6 +114,12 @@ body::before {
   flex-direction: row;
   justify-content: space-evenly;
 }
+/* .socialsWhite {
+  display: block;
+}
+.socialsDark {
+  display: none;
+} */
 .socials img {
   width: 50px;
   height: auto;
@@ -134,15 +140,17 @@ body::before {
 .card {
   width: 100%;
   border-radius: 20px !important;
+  /* background-color: #222222 !important; */
+  z-index: 0;
 }
 .card img {
   height: 250px;
   width: auto;
-  z-index: 0;
+  z-index: 1;
   margin: auto;
 }
 .imageBackground {
-  z-index: 1;
+  z-index: 2;
   opacity: 0.4;
   width: 100%;
   height: 250px;
@@ -322,4 +330,11 @@ body::before {
 .activeTheme {
   border: 2px solid #431264;
   background-color: white !important;
+}
+body.darkTheme::before {
+  background-image: url("Images/patternHomeDark2.png") !important;
+  opacity: 1;
+}
+.darkThemeText {
+  color: white !important;
 }
