@@ -39,5 +39,14 @@
   "scientificSupervisors": "Scientific supervisors:",
   "supervisorPetrov": "аssist. prof. Pavel Petrov, University of Veliko Tarnovo 'St. St. Cyril and Methodius'",
   "supervisorPetrova": "Vasilena Petrova, Shumen University 'Bishop Constantine Preslavski'",
-  "tryIt": "Try it"
+  "tryIt": "Try it",
+  "mentorMateInternship": "Front-end developer intern, Veliko Tarnovo office. <br />February 2022 - May 2023. <br />I participated in the development of a web application called VividTracker",
+  "vividTrackerDescription": "VividTracker allows you to visually track the progress of your projects over time, comparing your results with those of other team members. Advanced features such as tracking the activity of each element with the ability to: ",
+  "vividLi1": "adding comments;",
+  "vividLi2": "planning events for status change in the future;",
+  "vividLi3": "requiring action from a specific team member;",
+  "universityName": "University of Veliko Tarnovo 'St. St. Cyril and Methodius'",
+  "assistant": "Web Design Assistant. <br />From October 2025",
+  "presentations": "Presentations",
+  "exercises": "Exercises"
 }
