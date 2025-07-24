@@ -34,5 +34,10 @@
   "video": "Video",
   "videoText": "It's not ready yet.",
   "returnToProjects": "Projects",
-  "notInJournal": "The application has not yet been uploaded to a scientific journal."
+  "notInJournal": "The application has not yet been uploaded to a scientific journal.",
+  "madmathReport": "The application is included in the scientific journal 'Digital Educational Technologies' of the University of Veliko Tarnovo 'St. St. Cyril and Methodius', (VOLUME 1, ISSUE 2).",
+  "scientificSupervisors": "Scientific supervisors:",
+  "supervisorPetrov": "аssist. prof. Pavel Petrov, University of Veliko Tarnovo 'St. St. Cyril and Methodius'",
+  "supervisorPetrova": "Vasilena Petrova, Shumen University 'Bishop Constantine Preslavski'",
+  "tryIt": "Try it"
 }
