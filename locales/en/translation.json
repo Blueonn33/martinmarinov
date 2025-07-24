@@ -33,5 +33,6 @@
   "code": "Code",
   "video": "Video",
   "videoText": "It's not ready yet.",
-  "returnToProjects": "Projects"
+  "returnToProjects": "Projects",
+  "notInJournal": "The application has not yet been uploaded to a scientific journal."
 }

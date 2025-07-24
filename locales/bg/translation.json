@@ -33,5 +33,6 @@
   "code": "Код",
   "video": "Видео",
   "videoText": "Все още не е готово",
-  "returnToProjects": "Към проектите"
+  "returnToProjects": "Към проектите",
+  "notInJournal": "Приложението все още не е качено в научно списание."
 }
