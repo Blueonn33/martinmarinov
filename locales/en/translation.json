@@ -29,7 +29,7 @@
   "mansorReport": "The application is included in the scientific journal 'Mathematics, Computer Science and Education' of the University of Veliko Tarnovo 'St. St. Cyril and Methodius', (VOLUME 7, ISSUE 2).",
   "scientificSupervisor": "Scientific supervisor: ",
   "supervisorMilev": "аssoc. аssist. prof. dr. Vasil Milev, University of Veliko Tarnovo 'St. St. Cyril and Methodius'",
-  "journal": "Journal",
+  "journal": "View journal",
   "code": "Code",
   "video": "Video",
   "videoText": "It's not ready yet.",
@@ -49,5 +49,6 @@
   "assistant": "Web Design Assistant. <br />From October 2025",
   "presentations": "Presentations",
   "exercises": "Exercises",
-  "openPDF": "Open PDF"
+  "openPDF": "Open PDF",
+  "downloadReport": "You can download the report from the scientific journal."
 }
