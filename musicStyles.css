@@ -119,3 +119,16 @@
   background-size: 400% 400%;
   animation: gradient 8s ease infinite;
 }
+
+/* Arctic Monkeys */
+#singerMonkeysContainer {
+  width: 100%;
+  background: linear-gradient(45deg, #fff, #000, #fff);
+  background-size: 400% 400%;
+  animation: gradient 8s ease infinite;
+}
+#monkeysSong {
+  background: linear-gradient(45deg, #fff, #000, #fff);
+  background-size: 400% 400%;
+  animation: gradient 8s ease infinite;
+}
