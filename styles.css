@@ -95,6 +95,13 @@ body::before {
   display: grid;
   grid-template-columns: auto auto;
 }
+.styleText {
+  text-align: justify;
+  hyphens: auto;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  text-indent: 50px;
+}
 .profilePic {
   width: 70%;
   height: auto;

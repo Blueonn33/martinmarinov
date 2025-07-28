@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bg">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -109,18 +109,10 @@
         </div>
         <div class="col-sm-12 col-md-12 col-lg-6 mt-5">
           <h1 class="mb-5 name" data-i18n="name">Мартин Маринов</h1>
-          <p
-            class="lead fw-bold mb-5"
-            style="text-indent: 50px"
-            data-i18n="university"
-          >
+          <p class="lead fw-bold mb-5 styleText" data-i18n="university">
             Студент във ВТУ "Св. Св. Кирил и Методий", специалност Информатика.
           </p>
-          <p
-            class="lead"
-            style="text-indent: 50px; text-align: justify"
-            data-i18n="aboutMe"
-          >
+          <p class="lead styleText" data-i18n="aboutMe">
             Обичам да се занимавам със създаване на дизайни – от такива за уеб
             сайтове до логота и плакати. Разработвам уеб приложения на ASP.NET,
             като се стремя да съчетавам функционалността и естетиката. Имам
@@ -227,7 +219,10 @@
                 <h5 class="card-title card-title-mansor text-light">
                   <span data-i18n="mansor">MANSOR</span>
                 </h5>
-                <p class="card-text headingText" data-i18n="awardDescription">
+                <p
+                  class="card-text headingText styleText"
+                  data-i18n="awardDescription"
+                >
                   Награда за приложимост в научна конференция на младите
                   изследователи на факултет "Математика и информатика".
                   Великотърновски университет "Св. Св. Кирил и Методий"
@@ -258,7 +253,10 @@
                 <h5 class="card-title card-title-indigo text-light">
                   <span data-i18n="indigo">ИНДИГО</span>
                 </h5>
-                <p class="card-text headingText" data-i18n="awardDescription">
+                <p
+                  class="card-text headingText styleText"
+                  data-i18n="awardDescription"
+                >
                   Награда за приложимост в научна конференция на младите
                   изследователи на факултет "Математика и информатика".
                   Великотърновски университет "Св. Св. Кирил и Методий"
@@ -303,7 +301,7 @@
                   <span data-i18n="onyx">ОНИКС</span>
                 </h5>
                 <p
-                  class="card-text headingText"
+                  class="card-text headingText styleText"
                   data-i18n="upcomingEventDescription"
                 >
                   Научна конференция на младите изследователи на факултет
@@ -352,5 +350,19 @@
     <script src="https://unpkg.com/i18next@23.4.6/i18next.min.js"></script>
     <script src="https://unpkg.com/i18next-http-backend@2.2.2/i18nextHttpBackend.min.js"></script>
     <script src="main.js"></script>
+    <script src="Hyphenopoly_Loader.js"></script>
+    <script>
+      Hyphenopoly.config({
+        require: {
+          bg: "auto",
+          en: "auto",
+        },
+        setup: {
+          selectors: {
+            ".styleText": {},
+          },
+        },
+      });
+    </script>
   </body>
 </html>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bg">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -103,10 +103,7 @@
         id="madmathProjectContentContainer"
       >
         <h1 class="mt-3">MadMath</h1>
-        <p
-          class="lead mt-5 projectDescription"
-          data-i18n="madmathDescription"
-        ></p>
+        <p class="lead mt-5 styleText" data-i18n="madmathDescription"></p>
       </div>
     </section>
     <section class="projectImagesContainer mt-5 mb-5">
@@ -323,7 +320,7 @@
         class="projectContentContainer container mb-5"
         id="madmathProjectContentContainer"
       >
-        <p class="lead text-light pt-3" data-i18n="madmathReport">
+        <p class="lead text-light pt-3 styleText" data-i18n="madmathReport">
           Приложението е включено в научното списание "Дигитални образователни
           технологии" на ВТУ "Св. Св. Кирил и Методий", (ТОМ 1, БРОЙ 2).
         </p>
@@ -344,7 +341,7 @@
             Преславски“
           </li>
         </ul>
-        <p class="lead mt-5" data-i18n="downloadReport"></p>
+        <p class="lead mt-5 styleText" data-i18n="downloadReport"></p>
       </div>
       <div class="journalBtnContainer container mb-5">
         <a
@@ -412,5 +409,19 @@
     <script src="https://unpkg.com/i18next@23.4.6/i18next.min.js"></script>
     <script src="https://unpkg.com/i18next-http-backend@2.2.2/i18nextHttpBackend.min.js"></script>
     <script src="main.js"></script>
+    <script src="Hyphenopoly_Loader.js"></script>
+    <script>
+      Hyphenopoly.config({
+        require: {
+          bg: "auto",
+          en: "auto",
+        },
+        setup: {
+          selectors: {
+            ".styleText": {},
+          },
+        },
+      });
+    </script>
   </body>
 </html>
