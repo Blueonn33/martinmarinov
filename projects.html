@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bg">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -103,10 +103,7 @@
           <div class="col-12 col-md-6">
             <div class="projectContent text-light">
               <h1 class="mb-5" data-i18n="mansor">MANSOR</h1>
-              <p
-                class="lead projectDescription"
-                data-i18n="mansorDescription"
-              ></p>
+              <p class="lead styleText" data-i18n="mansorDescription"></p>
             </div>
           </div>
           <div class="projectBtnContainer mt-5 mb-5">
@@ -136,10 +133,7 @@
           <div class="col-12 col-md-6">
             <div class="projectContent text-light">
               <h1 class="mb-5" data-i18n="indigo">ИНДИГО</h1>
-              <p
-                class="lead projectDescription"
-                data-i18n="indigoDescription"
-              ></p>
+              <p class="lead styleText" data-i18n="indigoDescription"></p>
             </div>
           </div>
           <div class="projectBtnContainer mt-5 mb-5">
@@ -169,10 +163,7 @@
           <div class="col-12 col-md-6">
             <div class="projectContent text-light">
               <h1 class="mb-5" data-i18n="onyx">ОНИКС</h1>
-              <p
-                class="lead projectDescription"
-                data-i18n="onyxDescription"
-              ></p>
+              <p class="lead styleText" data-i18n="onyxDescription"></p>
             </div>
           </div>
           <div class="projectBtnContainer mt-5 mb-5">
@@ -202,10 +193,7 @@
           <div class="col-12 col-md-6">
             <div class="projectContent text-light">
               <h1 class="mb-5">Mad Math</h1>
-              <p
-                class="lead projectDescription"
-                data-i18n="madmathDescription"
-              ></p>
+              <p class="lead styleText" data-i18n="madmathDescription"></p>
             </div>
           </div>
           <div class="projectBtnContainer mt-5 mb-5">
@@ -233,5 +221,19 @@
     <script src="https://unpkg.com/i18next@23.4.6/i18next.min.js"></script>
     <script src="https://unpkg.com/i18next-http-backend@2.2.2/i18nextHttpBackend.min.js"></script>
     <script src="main.js"></script>
+    <script src="Hyphenopoly_Loader.js"></script>
+    <script>
+      Hyphenopoly.config({
+        require: {
+          bg: "auto",
+          en: "auto",
+        },
+        setup: {
+          selectors: {
+            ".styleText": {},
+          },
+        },
+      });
+    </script>
   </body>
 </html>
