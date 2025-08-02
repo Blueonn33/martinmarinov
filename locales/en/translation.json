@@ -50,5 +50,6 @@
   "presentations": "Presentations",
   "exercises": "Exercises",
   "openPDF": "Open PDF",
-  "downloadReport": "You can download the report from the scientific journal."
+  "downloadReport": "You can download the report from the scientific journal.",
+  "resume": "CV"
 }

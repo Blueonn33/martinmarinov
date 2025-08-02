@@ -121,15 +121,29 @@ body::before {
   flex-direction: row;
   justify-content: space-evenly;
 }
-/* .socialsWhite {
-  display: block;
-}
-.socialsDark {
-  display: none;
-} */
 .socials img {
   width: 50px;
   height: auto;
+}
+.resumeContainer {
+  display: flex;
+  justify-content: center;
+}
+.resumeButton {
+  color: white;
+  background-color: #431264;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 6px 50px;
+  border-radius: 10px;
+}
+.hrResume {
+  border-top: 10px solid #431264;
+  opacity: 0.5;
+  border-radius: 10px;
+}
+.resumeButton:hover {
+  background-color: #8343a0;
 }
 .sectionHeading {
   width: 100%;
