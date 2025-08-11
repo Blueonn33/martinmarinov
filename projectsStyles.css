@@ -261,3 +261,6 @@
   height: auto;
   min-width: 240px;
 }
+.styleSupervisorText {
+  letter-spacing: 3px;
+}
