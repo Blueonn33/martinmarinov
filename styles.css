@@ -295,14 +295,14 @@ body::before {
   height: auto;
 }
 .designImage {
-  width: 100%;
-  height: auto;
-  outline: 5px solid white;
+  width: 100% !important;
+  height: auto !important;
+  outline: 5px solid white !important;
 }
 .designImageDark {
-  width: 100%;
-  height: auto;
-  outline: 5px solid black;
+  width: 100% !important;
+  height: auto !important;
+  outline: 5px solid black !important;
 }
 .desings {
   width: 100%;
