@@ -290,17 +290,19 @@ body::before {
 /* Designs */
 .designsContainer {
   display: grid;
-  /* gap: 10px; */
   grid-template-columns: auto auto auto;
   width: 100%;
   height: auto;
 }
-#designImage {
+.designImage {
   width: 100%;
   height: auto;
   outline: 5px solid white;
-  /* min-width: 6.3em; */
-  /* min-width: 40px; */
+}
+.designImageDark {
+  width: 100%;
+  height: auto;
+  outline: 5px solid black;
 }
 .desings {
   width: 100%;
@@ -312,12 +314,6 @@ body::before {
 .designImageLink:hover {
   opacity: 0.6;
 }
-#designImage {
-  width: 100%;
-  height: auto;
-  outline: 5px solid white;
-}
-
 .allDesigns {
   width: 100%;
   height: auto;
