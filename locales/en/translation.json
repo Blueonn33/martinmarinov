@@ -51,5 +51,20 @@
   "exercises": "Exercises",
   "openPDF": "Open PDF",
   "downloadReport": "You can download the report from the scientific journal.",
-  "resume": "CV"
+  "resume": "CV",
+  "infinnoInfo": "Technical Writer, Sofia - remote. <br /> September 2025.",
+  "infinnoJobDescription": "A technical writer is responsible for creating clear, accurate, and user-friendly documentation that explains complex information in a way that is understandable to the target audience.",
+  "infinnoResponsibilities": "Responsibilities:",
+  "responsibility1": "Research and information gathering",
+  "responsibility1Item1": "Review of technical specifications, design documentation and prototypes.",
+  "responsibility1Item2": "Testing products or software.",
+  "responsibility2": "Content creation",
+  "responsibility2Item1": "Writing and editing user guides, installation guides, API documentation, online help systems.",
+  "responsibility2Item2": "Creating process documentation for internal teams.",
+  "responsibility3": "Structuring and organizing content",
+  "responsibility3Item1": "Planning the layout and navigation of the document for ease of use.",
+  "responsibility3Item2": "Divide information into logical sections using headings, lists, and visualizations.",
+  "responsibility4": "Visual communication",
+  "responsibility4Item1": "Creating diagrams, flowcharts, and screenshots to support written content.",
+  "responsibility4Item2": "Collaborate with graphic designers when necessary."
 }

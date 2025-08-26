@@ -88,3 +88,63 @@
   height: auto;
   min-width: 300px;
 }
+
+/* Infinno */
+@keyframes gradient {
+  0% {
+    background-position: 50% 0%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 50% 0%;
+  }
+}
+.infinnoAboutContainer {
+  width: 100%;
+  height: auto;
+  border: none;
+  background: linear-gradient(180deg, #fff, #6d4095, #fff);
+  background-size: 400% 400%;
+  animation: gradient 6s ease infinite;
+}
+.infinnoImageContainer {
+  display: flex;
+  justify-content: center;
+}
+.infinnoInfoContainer {
+  background-color: #6d409545;
+  width: 100%;
+  display: flex;
+  border: none;
+  justify-content: center;
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 200px;
+  border-bottom: 10px solid white;
+}
+.infinnoInfoContentContainer {
+  width: 50%;
+  min-width: 350px;
+  background-color: white;
+  border-bottom-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.infinnoImage {
+  width: 50%;
+}
+.infinnoJobDescriptionContainer {
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.infinnoList ul li {
+  font-size: 18px;
+}
+.responsibility {
+  color: #6d4095;
+  font-weight: bold !important;
+}
