@@ -1,8 +1,4 @@
 /* Проекти */
-/* .projectDescription {
-  text-indent: 50px;
-  text-align: justify;
-} */
 .projectContainer {
   width: 100%;
   height: auto;
@@ -14,7 +10,7 @@
   background-color: #22053f;
 }
 #onyxProjectContainer {
-  background-color: #003535;
+  background-color: #006b6b;
 }
 #madmathProjectContainer {
   background-color: #a2b3e1;
@@ -30,7 +26,7 @@
   background-color: #431264;
 }
 #onyxProject {
-  background-color: #006b6b;
+  background-color: black;
 }
 #madmathProject {
   background-color: #6d88d0;
@@ -194,7 +190,7 @@
 
 /* Onyx */
 #onyxProjectImageContainer {
-  background-color: #006b6b;
+  background-color: black;
 }
 #onyxProjectContentContainer {
   background-color: #006b6b;
