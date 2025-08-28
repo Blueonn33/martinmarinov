@@ -94,6 +94,7 @@
   min-width: 400px;
   height: auto;
   margin: auto;
+  border-radius: 10px;
 }
 .mansorCarousel {
   background-color: black;
