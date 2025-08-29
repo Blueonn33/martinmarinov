@@ -1,0 +1,47 @@
+#madmathProjectContainer {
+  background-color: #a2b3e1;
+}
+#madmathProject {
+  background-color: #6d88d0;
+}
+#madmathProjectBtn:hover {
+  background-color: #a2b3e1;
+  color: white;
+}
+#madmathProjectImageContainer {
+  background-color: #6d88d0;
+}
+#madmathProjectContentContainer {
+  background-color: #6d88d0;
+}
+.madmathCarousel {
+  background-color: #6d88d0;
+  border-radius: 5px;
+  opacity: 1;
+}
+#sectionHeadingTitleMadmath {
+  border: 6px solid rgba(109, 136, 208, 0.6);
+  background-color: white;
+  color: #6d88d0;
+}
+#madmathProjectContentContainer {
+  background-color: #6d88d0;
+}
+#projectThunkableMadmath {
+  border-radius: 50%;
+}
+#projectThunkableMadmath:hover {
+  border: 5px solid #6d88d0;
+}
+#journalBtnMadmath {
+  background-color: #6d88d0;
+}
+#journalBtnMadmath:hover {
+  background-color: white;
+  color: #6d88d0;
+}
+#madmathImage {
+  width: 27%;
+  height: auto;
+  min-width: 240px;
+}

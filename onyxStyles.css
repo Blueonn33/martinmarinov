@@ -1,0 +1,39 @@
+#onyxProjectImageContainer {
+  background-color: #006b6b;
+}
+#onyxProjectContainer {
+  background-color: #006b6b;
+}
+#onyxProject {
+  background-color: black;
+}
+#onyxProjectBtn:hover {
+  background-color: #003535;
+  color: white;
+}
+#onyxProjectContentContainer {
+  background-color: #006b6b;
+}
+.onyxCarousel {
+  background-color: #003535;
+  border-radius: 5px;
+  opacity: 1;
+}
+#sectionHeadingTitleOnyx {
+  border: 6px solid rgba(0, 107, 107, 0.6);
+  background-color: white;
+  color: #006b6b;
+}
+#onyxProjectContentContainer {
+  background-color: #006b6b;
+}
+#projectGithubOnyx:hover {
+  background-color: #006b6b;
+}
+#journalBtnOnyx {
+  background-color: #006b6b;
+}
+#journalBtnOnyx:hover {
+  background-color: white;
+  color: #006b6b;
+}
