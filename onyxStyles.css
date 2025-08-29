@@ -1,8 +1,11 @@
 #onyxProjectContainer {
+  background-color: #003535;
+}
+#onyxProjectImageContainer {
   background-color: #006b6b;
 }
 #onyxProject {
-  background-color: black;
+  background-color: #006b6b;
 }
 #onyxProjectBtn:hover {
   background-color: #003535;
