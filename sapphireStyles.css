@@ -32,3 +32,8 @@
 #sapphireProjectContainer {
   background-color: #040649;
 }
+.sapphireCarousel {
+  background-color: #040649;
+  border-radius: 5px;
+  opacity: 1;
+}
