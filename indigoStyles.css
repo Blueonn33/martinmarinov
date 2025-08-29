@@ -1,0 +1,39 @@
+#indigoProjectContentContainer {
+  background-color: #22053f;
+}
+.indigoCarousel {
+  background-color: #431264;
+  border-radius: 5px;
+  opacity: 1;
+}
+#sectionHeadingTitleIndigo {
+  border: 6px solid rgba(67, 18, 100, 0.6);
+  background-color: white;
+  color: #431264;
+}
+#indigoProjectContentContainer {
+  background-color: #431264;
+}
+#projectGithubIndigo:hover {
+  background-color: #431264;
+}
+#journalBtnIndigo {
+  background-color: #431264;
+}
+#journalBtnIndigo:hover {
+  background-color: white;
+  color: #431264;
+}
+#indigoProjectBtn:hover {
+  background-color: #8343a0;
+  color: white;
+}
+#indigoProject {
+  background-color: #431264;
+}
+#indigoProjectContainer {
+  background-color: #22053f;
+}
+#indigoProjectImageContainer {
+  background-color: #431264;
+}

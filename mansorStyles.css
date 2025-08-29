@@ -1,0 +1,33 @@
+#mansorProjectContainer {
+  background-color: #434343;
+}
+#mansorProject {
+  background-color: black;
+}
+#mansorProjectBtn:hover {
+  background-color: #434343;
+  color: white;
+}
+#mansorProjectContentContainer {
+  background-color: #434343;
+}
+.mansorCarousel {
+  background-color: black;
+  border-radius: 5px;
+  opacity: 1;
+}
+#sectionHeadingTitleMansor {
+  border: 6px solid rgba(67, 67, 67, 0.6);
+  background-color: white;
+  color: #434343;
+}
+#journalBtnMansor {
+  background-color: #434343;
+}
+#journalBtnMansor:hover {
+  background-color: white;
+  color: #434343;
+}
+#mansorProjectImageContainer {
+  background-color: black;
+}
