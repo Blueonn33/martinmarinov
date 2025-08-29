@@ -12,6 +12,7 @@
 #onyxProjectContainer {
   background-color: #006b6b;
 }
+
 #madmathProjectContainer {
   background-color: #a2b3e1;
 }
@@ -67,9 +68,6 @@
   width: 100%;
   display: flex;
   justify-content: center;
-}
-#mansorProjectImageContainer {
-  background-color: black;
 }
 .projectContentContainer {
   color: white;
@@ -159,9 +157,6 @@
 }
 
 /* Indigo */
-#indigoProjectImageContainer {
-  background-color: #431264;
-}
 #indigoProjectContentContainer {
   background-color: #22053f;
 }
@@ -190,9 +185,6 @@
 }
 
 /* Onyx */
-#onyxProjectImageContainer {
-  background-color: black;
-}
 #onyxProjectContentContainer {
   background-color: #006b6b;
 }
