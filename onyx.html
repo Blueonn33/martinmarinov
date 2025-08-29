@@ -4,9 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Мартин Маринов</title>
-    <link rel="stylesheet" href="Styles/styles.css" />
-    <link rel="stylesheet" href="Styles/projectsStyles.css" />
-    <link rel="stylesheet" href="Styles/mansorStyles.css" />
+    <link rel="stylesheet" href="/styles/projectStyles/styles.css" />
+    <link rel="stylesheet" href="/styles/projectStyles/projectsStyles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,8 +21,8 @@
     <link rel="icon" type="image/x-icon" href="./Images/favicon.ico" />
     <style>
       body::before {
-        background-image: url("Images/patternMansorBlack.png") !important;
-        opacity: 0.6;
+        background-image: url("Images/onyxPattern.png") !important;
+        opacity: 0.8;
       }
     </style>
   </head>
@@ -47,13 +46,18 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav navigationList">
             <li class="nav-item">
-              <a class="nav-link" href="index.html" data-i18n="navMe">За мен</a>
-            </li>
-            <li class="nav-item">
               <a
                 class="nav-link active"
                 aria-current="page"
-                href="projects.html"
+                href="/index.html"
+                data-i18n="navMe"
+                >За мен</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/projects/projects.html"
                 data-i18n="navProjects"
                 >Проекти</a
               >
@@ -61,18 +65,21 @@
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="internship.html"
+                href="/internship/internship.html"
                 data-i18n="navInternship"
                 >Стаж</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="design.html" data-i18n="navDesigns"
+              <a
+                class="nav-link"
+                href="/designs/design.html"
+                data-i18n="navDesigns"
                 >Дизайни</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="music.html" data-i18n="navMusic"
+              <a class="nav-link" href="/music/music.html" data-i18n="navMusic"
                 >Музика</a
               >
             </li>
@@ -95,61 +102,97 @@
         English
       </button>
     </div>
-    <section class="mansorContainer mb-5" id="">
-      <div class="projectImageContainer" id="mansorProjectImageContainer">
-        <img src="Images/Mansor.png" />
+    <section class="onyxContainer mb-5" id="">
+      <div class="projectImageContainer" id="onyxProjectImageContainer">
+        <img src="Images/OnyxDark.png" />
       </div>
       <div
         class="projectContentContainer container mt-5"
-        id="mansorProjectContentContainer"
+        id="onyxProjectContentContainer"
       >
-        <h1 class="mt-3" data-i18n="mansor"></h1>
-        <p class="lead mt-5 styleText" data-i18n="mansorDescription"></p>
+        <h1 class="mt-3" data-i18n="onyx"></h1>
+        <p class="lead mt-5 styleText" data-i18n="onyxDescription"></p>
       </div>
     </section>
     <section class="projectImagesContainer mt-5 mb-5">
       <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <a href="Images/Mansor/Home/AboutMansor.png" target="_blank">
+            <a href="Images/Onyx/Home/Home-1.png" target="_blank">
               <img
-                src="Images/Mansor/Home/AboutMansor.png"
+                src="Images/Onyx/Home/Home-1.png"
                 class="d-block"
                 alt="..."
               />
             </a>
           </div>
           <div class="carousel-item">
-            <a href="Images/Mansor/Home/Home.png" target="_blank">
+            <a href="Images/Onyx/Profile/Profile.png" target="_blank">
               <img
-                src="Images/Mansor/Home/Home.png"
+                src="Images/Onyx/Profile/Profile.png"
                 class="d-block"
                 alt="..."
               />
             </a>
           </div>
           <div class="carousel-item">
-            <a href="Images/Mansor/Home/Profile.png" target="_blank">
+            <a href="Images/Onyx/Register-Login/Register.png" target="_blank">
               <img
-                src="Images/Mansor/Home/Profile.png"
+                src="Images/Onyx/Register-Login/Register.png"
                 class="d-block"
                 alt="..."
               />
             </a>
           </div>
           <div class="carousel-item">
-            <a href="Images/Mansor/Login-Register/Register.png" target="_blank">
+            <a href="Images/Onyx/Register-Login/Login.png" target="_blank">
               <img
-                src="Images/Mansor/Login-Register/Register.png"
+                src="Images/Onyx/Register-Login/Login.png"
                 class="d-block"
                 alt="..."
               />
             </a>
           </div>
           <div class="carousel-item">
-            <a href="Images/Mansor/Login-Register/Login.png" target="_blank">
+            <a href="Images/Onyx/Documentation/Languages.png" target="_blank">
               <img
-                src="Images/Mansor/Login-Register/Login.png"
+                src="Images/Onyx/Documentation/Languages.png"
+                class="d-block"
+                alt="..."
+              />
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="Images/Onyx/Chapters/Chapters.png" target="_blank">
+              <img
+                src="Images/Onyx/Chapters/Chapters.png"
+                class="d-block"
+                alt="..."
+              />
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="Images/Onyx/Chapters/Documentation.png" target="_blank">
+              <img
+                src="Images/Onyx/Chapters/Documentation.png"
+                class="d-block"
+                alt="..."
+              />
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="Images/Onyx/Forum/Forum.png" target="_blank">
+              <img
+                src="Images/Onyx/Forum/Forum.png"
+                class="d-block"
+                alt="..."
+              />
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="Images/Onyx/Quizzes/Quizzes.png" target="_blank">
+              <img
+                src="Images/Onyx/Quizzes/Quizzes.png"
                 class="d-block"
                 alt="..."
               />
@@ -157,95 +200,38 @@
           </div>
           <div class="carousel-item">
             <a
-              href="Images/Mansor/Specialities/Specialities.png"
+              href="Images/Onyx/Quizzes/CreateQuizQuestions.png"
               target="_blank"
             >
               <img
-                src="Images/Mansor/Specialities/Specialities.png"
+                src="Images/Onyx/Quizzes/CreateQuizQuestions.png"
                 class="d-block"
                 alt="..."
               />
             </a>
           </div>
           <div class="carousel-item">
-            <a
-              href="Images/Mansor/Specialities/CurrentSpeciality.png"
-              target="_blank"
-            >
+            <a href="Images/Onyx/Quizzes/CorrectAnswer.png" target="_blank">
               <img
-                src="Images/Mansor/Specialities/CurrentSpeciality.png"
+                src="Images/Onyx/Quizzes/CorrectAnswer.png"
                 class="d-block"
                 alt="..."
               />
             </a>
           </div>
           <div class="carousel-item">
-            <a href="Images/Mansor/Tasks/Courses.png" target="_blank">
+            <a href="Images/Onyx/Quizzes/WrongAnswer.png" target="_blank">
               <img
-                src="Images/Mansor/Tasks/Courses.png"
+                src="Images/Onyx/Quizzes/WrongAnswer.png"
                 class="d-block"
                 alt="..."
               />
             </a>
           </div>
           <div class="carousel-item">
-            <a href="Images/Mansor/Tasks/Semesters.png" target="_blank">
+            <a href="Images/Onyx/Quizzes/TestResult.png" target="_blank">
               <img
-                src="Images/Mansor/Tasks/Semesters.png"
-                class="d-block"
-                alt="..."
-              />
-            </a>
-          </div>
-          <div class="carousel-item">
-            <a href="Images/Mansor/Tasks/Subjects.png" target="_blank">
-              <img
-                src="Images/Mansor/Tasks/Subjects.png"
-                class="d-block"
-                alt="..."
-              />
-            </a>
-          </div>
-          <div class="carousel-item">
-            <a href="Images/Mansor/Tasks/Tasks.png" target="_blank">
-              <img
-                src="Images/Mansor/Tasks/Tasks.png"
-                class="d-block"
-                alt="..."
-              />
-            </a>
-          </div>
-          <div class="carousel-item">
-            <a href="Images/Mansor/Resourses/Resourses.png" target="_blank">
-              <img
-                src="Images/Mansor/Resourses/Resourses.png"
-                class="d-block"
-                alt="..."
-              />
-            </a>
-          </div>
-          <div class="carousel-item">
-            <a href="Images/Mansor/Grades/Grades.png" target="_blank">
-              <img
-                src="Images/Mansor/Grades/Grades.png"
-                class="d-block"
-                alt="..."
-              />
-            </a>
-          </div>
-          <div class="carousel-item">
-            <a href="Images/Mansor/Notes/Notes.png" target="_blank">
-              <img
-                src="Images/Mansor/Notes/Notes.png"
-                class="d-block"
-                alt="..."
-              />
-            </a>
-          </div>
-          <div class="carousel-item">
-            <a href="Images/Mansor/Schedule/Schedule.png" target="_blank">
-              <img
-                src="Images/Mansor/Schedule/ScheduleDays.png"
+                src="Images/Onyx/Quizzes/TestResult.png"
                 class="d-block"
                 alt="..."
               />
@@ -259,7 +245,7 @@
           data-bs-slide="prev"
         >
           <span
-            class="carousel-control-prev-icon mansorCarousel"
+            class="carousel-control-prev-icon onyxCarousel"
             aria-hidden="true"
           ></span>
           <span class="visually-hidden">Previous</span>
@@ -271,7 +257,7 @@
           data-bs-slide="next"
         >
           <span
-            class="carousel-control-next-icon mansorCarousel"
+            class="carousel-control-next-icon onyxCarousel"
             aria-hidden="true"
           ></span>
           <span class="visually-hidden">Next</span>
@@ -279,69 +265,26 @@
       </div>
     </section>
     <hr class="line mb-5" />
-    <section class="report">
-      <div class="sectionHeading mt-5">
-        <div class="sectionHeadingTitle mb-5" id="sectionHeadingTitleMansor">
-          <h2 data-i18n="scientificReport"></h2>
-        </div>
-      </div>
-      <div
-        class="projectContentContainer container mb-5"
-        id="mansorProjectContentContainer"
-      >
-        <p class="lead text-light pt-3 styleText" data-i18n="mansorReport"></p>
-        <p
-          class="lead fw-bold styleSupervisorText"
-          data-i18n="scientificSupervisor"
-        ></p>
-        <ul class="lead">
-          <li data-i18n="supervisorMilev"></li>
-        </ul>
-        <p class="lead mt-5 styleText" data-i18n="downloadReport"></p>
-      </div>
-      <div class="journalBtnContainer container mb-5">
-        <a
-          class="journalBtn fs-4"
-          id="journalBtnMansor"
-          href="https://journals.uni-vt.bg/mcse/bul/vol7/iss2/art8"
-          target="_blank"
-          data-i18n="journal"
-        ></a>
-      </div>
-    </section>
-    <hr class="line mb-5" />
     <section class="code">
       <div class="sectionHeading mt-5">
-        <div class="sectionHeadingTitle mb-5" id="sectionHeadingTitleMansor">
+        <div class="sectionHeadingTitle mb-5" id="sectionHeadingTitleOnyx">
           <h2 data-i18n="code"></h2>
         </div>
       </div>
       <div class="projectGithubContainer container mb-5">
-        <a href="https://github.com/Blueonn33/Mansor17" target="_blank"
-          ><img class="projectGithub" src="Images/githubWhite.png"
+        <a href="https://github.com/Blueonn33/Onyx17" target="_blank"
+          ><img
+            class="projectGithub"
+            src="Images/githubWhite.png"
+            id="projectGithubOnyx"
         /></a>
-      </div>
-    </section>
-    <hr class="line mb-5" />
-    <section class="video">
-      <div class="sectionHeading mt-5">
-        <div class="sectionHeadingTitle mb-5" id="sectionHeadingTitleMansor">
-          <h2 data-i18n="video"></h2>
-        </div>
-      </div>
-      <div class="ratio ratio-16x9 container mb-5">
-        <iframe
-          class="iframeVideo"
-          src="https://www.youtube.com/embed/87T8cFpIB7M"
-        >
-        </iframe>
       </div>
     </section>
     <hr class="line mb-5" />
     <div class="journalBtnContainer container mb-5">
       <a
         class="journalBtn fs-4"
-        id="journalBtnMansor"
+        id="journalBtnOnyx"
         href="projects.html"
         data-i18n="returnToProjects"
       ></a>
