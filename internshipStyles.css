@@ -58,11 +58,17 @@
 .internshipUniversity {
   width: 100%;
   height: auto;
-  background-color: #4f9ddf;
+  background-color: white;
+  border-top: 6px solid #9400ff;
+  /* display: grid;
+  grid-template-columns: 1fr 3fr 1fr; */
 }
 .universityImageContainer {
   display: flex;
   justify-content: center;
+  background-color: #9400ff;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 .universityContentContainer {
   text-align: center;
@@ -73,22 +79,42 @@
   justify-items: center;
 }
 .universityResoursesBtn {
-  color: white;
-  border: 4px solid white;
+  color: #9400ff;
+  border: 4px solid #9400ff;
   border-radius: 20px;
   padding: 2px 30px;
   text-decoration: none;
 }
 .universityResoursesBtn:hover {
-  background-color: white;
-  color: #4f9ddf;
+  background-color: #9400ff;
+  color: white;
 }
 .universityImage {
   width: 30%;
   height: auto;
   min-width: 300px;
+  border: 5px solid white;
+  border-radius: 10px;
 }
-
+.universityImageAbstract {
+  width: 40%;
+  min-width: 100px;
+  height: auto;
+}
+.universityImagesContainerTop {
+  display: flex;
+  justify-content: center;
+}
+.universityImagesContainerBottom {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  align-items: flex-end;
+}
+.universityName {
+  color: #9400ff;
+}
 /* Infinno */
 @keyframes gradient {
   0% {
