@@ -72,8 +72,8 @@
   text-align: center;
 }
 .universityResoursesContainer {
-  display: -ms-inline-grid;
-  grid-template-columns: auto auto;
+  display: grid;
+  grid-template-columns: auto;
   justify-items: center;
 }
 .universityResoursesBtn {
@@ -92,7 +92,8 @@
   height: auto;
   min-width: 300px;
   border: 5px solid white;
-  border-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 .universityImageAbstract {
   width: 40%;
