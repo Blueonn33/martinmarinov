@@ -178,7 +178,8 @@ body::before {
   position: absolute;
   padding: 10px;
   border-radius: 20px;
-  /* bottom: 0; */
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 .imageBackgroundMansor {
   background-color: #434343;
