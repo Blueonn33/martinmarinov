@@ -375,7 +375,7 @@ footer {
 }
 a:link,
 a:visited,
-a img:hover,
+a img,
 button:hover {
   transition: all 0.6s;
 }
