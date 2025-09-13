@@ -193,26 +193,28 @@ body::before {
 .imageBackgroundSapphire {
   background-color: #0f52ba;
 }
+.imageBackgroundNephrite {
+  background-color: #be6363;
+}
 .awardYear {
   z-index: 2;
   color: white;
   font-weight: bolder;
   opacity: 0.9;
 }
-.card-title-mansor {
-  background-color: #434343;
-  width: min-content;
-  padding: 3px 10px;
-  border-radius: 5px;
-}
 .card-text {
   text-align: left;
 }
-.card-title-indigo {
-  background-color: #431264;
+.card-title {
   width: min-content;
   padding: 3px 10px;
   border-radius: 5px;
+}
+.card-title-mansor {
+  background-color: #434343;
+}
+.card-title-indigo {
+  background-color: #431264;
 }
 .awardBtnContainer {
   display: flex;
@@ -231,15 +233,12 @@ body::before {
 }
 .card-title-onyx {
   background-color: #006b6b;
-  width: min-content;
-  padding: 3px 10px;
-  border-radius: 5px;
 }
 .card-title-sapphire {
   background-color: #0f52ba;
-  width: min-content;
-  padding: 3px 10px;
-  border-radius: 5px;
+}
+.card-title-nephrite {
+  background-color: #be6363;
 }
 .projectsContainer {
   width: 100%;
