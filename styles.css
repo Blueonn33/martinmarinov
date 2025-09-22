@@ -196,9 +196,12 @@ body::before {
 .imageBackgroundNephrite {
   background-color: #be6363;
 }
-.imageBackgroundPrism {
-  background-color: #ffb879;
+.imageBackgroundPorcelain {
+  background-color: #d9bc95;
 }
+/* .imageBackgroundPrism {
+  background-color: #ffb879;
+} */
 .awardYear {
   z-index: 2;
   color: white;
@@ -243,9 +246,12 @@ body::before {
 .card-title-nephrite {
   background-color: #be6363;
 }
-.card-title-prism {
-  background-color: #ffb879;
+.card-title-porcelain {
+  background-color: #74542a;
 }
+/* .card-title-prism {
+  background-color: #ffb879;
+} */
 .projectsContainer {
   width: 100%;
   padding: 30px;
